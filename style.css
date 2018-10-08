@@ -1,0 +1,52 @@
+body{
+    background: lightblue;
+}
+
+.key {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    width:40%;
+}
+input{
+    padding: 30px;
+}
+#images{
+    height: 50px;
+    
+}
+.alphabet{
+    background-image: url("images/keyboard-key.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    padding-top: 5px;
+}
+.space{
+    background-image: url("images/space-bar-key.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    padding-top: 5px;
+}
+.card-body{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+
+}
